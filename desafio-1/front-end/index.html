@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Desafio-1</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <h1>Encontre os números</h1>
+        <form action="">
+            <label for="start">Início:</label>
+            <input type="number" id="start" name="start"><br>
+            <label for="end">Fim:</label>
+            <input type="number" name="end" id="end">
+            <button type="button" onclick="findPalindromes()" id="btn">Encontrar</button>
+        </form>
+        <div id="result">
+            <h2>Números palíndromes:</h2>
+            <ul id="palindromes"></ul>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+[
+    {
+        "modelo": "Toro",
+        "anoFabricacao": "2018",
+        "quatidadePortas": 0,
+        "marca": "Fiat",
+        "quantidadePortas": "4"
+    },
+    {
+        "modelo": "Titan 160",
+        "anoFabricacao": "2023",
+        "quatidadePortas": 0,
+        "marca": "Honda",
+        "quantidadePortas": "0"
+    },
+    {
+        "modelo": "BMW i8",
+        "anoFabricacao": "2016",
+        "quatidadePortas": 0,
+        "marca": "BMW",
+        "quantidadePortas": "4"
+    }
+]

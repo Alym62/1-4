@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.left {
+  background-color: #282931;
+  width: 50%;
+  height: 100vh;
+}
+
+.left h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.left p {
+  font-size: .625rem;
+  color: #fff;
+  margin-top: .625rem;
+}
+
+.left button {
+  margin-top: 1rem;
+  width: 10rem;
+  height: 2rem;
+  color: #000;
+  font-weight: 700;
+  background-color: #fff;
+  border-radius: 1rem;
+  border: 2px solid #fff;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.left button:hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.rigth {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rigth h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.rigth input {
+  margin-top: .625rem;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 1rem;
+  background-color: #F3F3F3;
+  outline: none;
+  border: none;
+  text-align: center;
+}
+
+.rigth div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rigth button {
+  margin-top: 1rem;
+  width: 10rem;
+  height: 2rem;
+  color: #fff;
+  font-weight: 700;
+  background-color: #000;
+  border-radius: 1rem;
+  border: 2px solid #000;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.rigth button:hover {
+  background-color: transparent;
+  border: 2px solid #000;
+  color: #000;
+}
+
+@media screen and (max-width: 968px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .rigth {
+    width: 100%;
+  }
+}
